@@ -1,0 +1,8 @@
+group = 'com.walterjwhite.modules.serialization.modules'
+description = 'serialization - modules - kryo'
+dependencies {
+  compile project(':infrastructure:dependencies:google-guice:core')
+  compile project(':infrastructure:dependencies:commons-io')
+  compile project(':infrastructure:dependencies:kryo')
+  compile project(':infrastructure:datastore:modules:property')
+}

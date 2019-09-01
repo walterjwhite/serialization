@@ -1,0 +1,7 @@
+group = 'com.walterjwhite.modules.serialization.modules'
+description = 'serialization - modules - snakeyaml'
+dependencies {
+  compile project(':infrastructure:dependencies:google-guice:core')
+  compile project(':infrastructure:dependencies:snakeyaml')
+  compile project(':infrastructure:dependencies:commons-io')
+}

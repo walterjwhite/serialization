@@ -1,0 +1,5 @@
+group = 'com.walterjwhite.modules.serialization.api'
+description = 'serialization - api - model'
+dependencies {
+  compile project(':infrastructure:datastore:api:model')
+}
