@@ -4,7 +4,7 @@
   <parent>
     <groupId>com.walterjwhite.java.modules.serialization.modules</groupId>
     <artifactId>jackson-databind</artifactId>
-    <version>0.0.15-SNAPSHOT</version>
+    <version>0.0.17-SNAPSHOT</version>
   </parent>
   <groupId>com.walterjwhite.java.modules.serialization.modules.jackson-databind</groupId>
   <artifactId>impl</artifactId>
@@ -14,18 +14,18 @@
     <dependency>
       <groupId>com.walterjwhite.java.modules.serialization.api</groupId>
       <artifactId>service</artifactId>
-      <version>0.0.15-SNAPSHOT</version>
+      <version>0.0.17-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.walterjwhite.java.dependencies</groupId>
       <artifactId>jackson</artifactId>
-      <version>0.0.15-SNAPSHOT</version>
+      <version>0.0.17-SNAPSHOT</version>
       <type>pom</type>
     </dependency>
     <dependency>
       <groupId>com.walterjwhite.java.dependencies</groupId>
       <artifactId>commons-io</artifactId>
-      <version>0.0.15-SNAPSHOT</version>
+      <version>0.0.17-SNAPSHOT</version>
       <type>pom</type>
     </dependency>
   </dependencies>

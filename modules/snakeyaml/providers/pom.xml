@@ -4,7 +4,7 @@
   <parent>
     <groupId>com.walterjwhite.java.modules.serialization.modules</groupId>
     <artifactId>snakeyaml</artifactId>
-    <version>0.0.15-SNAPSHOT</version>
+    <version>0.0.17-SNAPSHOT</version>
   </parent>
   <groupId>com.walterjwhite.java.modules.serialization.modules.snakeyaml</groupId>
   <artifactId>providers</artifactId>
@@ -17,7 +17,7 @@
     <dependency>
       <groupId>com.walterjwhite.java.modules.serialization.modules.snakeyaml</groupId>
       <artifactId>impl</artifactId>
-      <version>0.0.15-SNAPSHOT</version>
+      <version>0.0.17-SNAPSHOT</version>
     </dependency>
   </dependencies>
 </project>
