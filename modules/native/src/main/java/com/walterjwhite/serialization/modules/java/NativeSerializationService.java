@@ -12,7 +12,7 @@ public class NativeSerializationService implements SerializationService {
       }
 
     } catch (IOException e) {
-      throw (new RuntimeException("Error serializing", e));
+      throw new RuntimeException("Error serializing", e);
     }
   }
 
@@ -30,7 +30,7 @@ public class NativeSerializationService implements SerializationService {
       }
 
     } catch (IOException | ClassNotFoundException e) {
-      throw (new RuntimeException("Error serializing", e));
+      throw new RuntimeException("Error serializing", e);
     }
   }
 }

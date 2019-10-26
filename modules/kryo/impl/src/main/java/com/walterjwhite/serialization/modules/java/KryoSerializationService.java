@@ -36,6 +36,6 @@ public class KryoSerializationService implements SerializationService<Serializab
   @Override
   public Serializable deserialize(InputStream inputStream) {
     //    return (deserialize(inputStream, null));
-    throw (new UnsupportedOperationException("Need a class."));
+    throw new UnsupportedOperationException("Need a class.");
   }
 }
